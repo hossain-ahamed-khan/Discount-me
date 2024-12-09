@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${figtree.variable} ${roboto.variable} ${poppins.variable} ${dm_Sans.variable} ${inter.variable} ${urbanist.variable} antialiased`}
+        className={`${figtree.variable} ${roboto.variable} ${poppins.variable} ${dm_Sans.variable} ${inter.variable} ${urbanist.variable} antialiased bg-[#FDFDFD]`}
       >
         <Navbar />
         {children}
