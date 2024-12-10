@@ -8,11 +8,13 @@ export default function Hero() {
     return (
         <div className="relative my-3 lg:my-20">
             <div className="flex-none lg:flex justify-between items-center">
-                <div className="w-full lg:w-3/5 space-y-5 lg:space-y-10">
+                <div className="w-full lg:w-3/5 space-y-5 lg:space-y-10 text-center lg:text-left">
                     <h1 className="font-roboto text-5xl lg:text-7xl font-bold text-[#0C0C0C]">Good <span className="text-[#FF7D29]">food</span>, great <br /> memories</h1>
-                    <p className="font-dm_Sans text-xl lg:text-3xl text-[#232323] w-4/5">Enable diners to customize their booking by requesting a specific table location or view.</p>
-                    <div className="border rounded-full w-52 lg:w-[480px] flex justify-between items-center">
-                        <div className="bg-[#00B047] w-24 lg:w-32 flex justify-between items-center text-white space-x-4 p-3 rounded-l-full">
+
+                    <p className="w-full lg:w-3/5 font-dm_Sans text-xl lg:text-3xl text-[#232323]">Enable diners to customize their booking by requesting a specific table location or view.</p>
+
+                    <div className="border rounded-full w-full lg:w-4/6 flex justify-between items-center">
+                        <div className="bg-[#00B047] w-1/5 flex justify-between items-center text-white space-x-2 py-3 px-2 rounded-l-full">
                             <div>
                                 <Image
                                     src={locationLogo}
@@ -36,6 +38,7 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
+
                 <div className="w-full lg:w-2/5">
                     <div>
                         <Image
@@ -52,7 +55,7 @@ export default function Hero() {
                     src={heroImg}
                     width={1000}
                     height={200}
-                    alt="search image"
+                    alt="hero second image"
                 />
             </div>
         </div>
