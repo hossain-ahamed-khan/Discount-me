@@ -20,7 +20,7 @@ export const Footer = () => {
                             />
                         </Link>
                     </div>
-                    <p className="font-inter w-full lg:w-96 my-3 lg:my-6">
+                    <p className="font-inter w-full lg:w-96 my-3 lg:my-6 text-sm lg:text-base">
                         Ecommerce is a free UI Kit from Paperpillar that you can use for your personal or commercial project.
                     </p>
                     <div className="space-x-3">
