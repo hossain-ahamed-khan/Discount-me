@@ -1,8 +1,10 @@
+import Hero from "./components/home/hero";
 
 export default function Home() {
   return (
-    <>
-      <h1 className="min-h-screen">Home</h1>
-    </>
+    <div className="w-4/5 mx-auto">
+      <Hero />
+
+    </div>
   );
 }

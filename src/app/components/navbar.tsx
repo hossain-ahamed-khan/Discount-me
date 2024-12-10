@@ -52,7 +52,7 @@ export const Navbar = () => {
                         src={search}
                         width={18}
                         height={18}
-                        alt="main logo image"
+                        alt="search image"
                     />
                     <input className="w-72 px-10 py-2 rounded-3xl focus:outline-none bg-[#FDFDFD]" type="text" placeholder="Search" />
                     <button className="bg-[#FF7D29] px-6 text-white rounded-r-3xl">Search</button>
