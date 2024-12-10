@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .font-figtree {
   font-family: var(--font-figtree);
 }
