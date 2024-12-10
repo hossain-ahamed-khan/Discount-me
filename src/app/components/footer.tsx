@@ -8,7 +8,7 @@ import appStore from "../../../public/images/apple-store-logo.png";
 export const Footer = () => {
     return (
         <div className="bg-[#232323]">
-            <div className="w-4/5 flex-none lg:flex justify-between mx-auto py-12 space-y-10 lg:space-y-0">
+            <div className="w-11/12 lg:w-4/5 flex-none lg:flex justify-between mx-auto py-12 space-y-10 lg:space-y-0">
                 <div className="flex-1 justify-center">
                     <div>
                         <Link href="/">
@@ -20,12 +20,12 @@ export const Footer = () => {
                             />
                         </Link>
                     </div>
-                    <p className="font-inter w-96 my-6">
+                    <p className="font-inter w-60 lg:w-96 my-6">
                         Ecommerce is a free UI Kit from Paperpillar that you can use for your personal or commercial project.
                     </p>
                     <div className="space-x-2">
-                        <input type="text" placeholder="Type your email address" className="border border-outline rounded-full px-6 py-3 bg-[#232323]" />
-                        <button className="bg-[#F8FAFC] px-6 py-3 rounded-full text-[#232323]">Submit</button>
+                        <input type="text" placeholder="Type your email address" className="border border-outline rounded-full px-3 lg:px-6 py-2 lg:py-3 bg-[#232323] text-xs lg:text-lg" />
+                        <button className="bg-[#F8FAFC] px-3 lg:px-6 py-2 lg:py-3 rounded-full text-[#232323] text-xs lg:text-lg">Submit</button>
                     </div>
                 </div>
 
