@@ -14,7 +14,7 @@ export default function Hero() {
                     <p className="w-full lg:w-3/5 font-dm_Sans text-xl lg:text-3xl text-[#232323]">Enable diners to customize their booking by requesting a specific table location or view.</p>
 
                     <div className="border rounded-full w-full lg:w-4/6 flex justify-between items-center">
-                        <div className="bg-[#00B047] w-1/5 flex justify-between items-center text-white space-x-2 py-3 px-2 rounded-l-full">
+                        <div className="bg-[#00B047] w-1/4 flex justify-around items-center text-white space-x-2 py-3 px-2 rounded-l-full">
                             <div>
                                 <Image
                                     src={locationLogo}
