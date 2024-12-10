@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bannerImg from "../../../../public/images/banner-signin.png"
+import bannerImg from "../../../../public/images/banner-signin.png";
 
 export default function SignIn() {
   return (
@@ -16,7 +16,7 @@ export default function SignIn() {
         />
       </div>
 
-      <div className="w-full lg:w-2/5 mx-auto p-5 shadow-lg my-20 rounded-xl space-y-6">
+      <div className="w-full lg:w-2/5 mx-auto p-5 shadow-lg my-20 py-10 rounded-xl space-y-6">
         <h1 className="text-4xl font-figtree text-[#1A1A1A] font-semibold text-center py-5">Sign In</h1>
         <div>
           <input type="text" placeholder="Email" className="bg-white w-full border-2 p-3 rounded-xl" />
@@ -26,7 +26,7 @@ export default function SignIn() {
         </div>
         <div className="flex justify-between text-[#666666]">
           <div className="flex gap-2">
-            <input type="checkbox" defaultChecked className="checkbox" />
+            <input type="checkbox" className="checkbox" />
             <p>Remember me</p>
           </div>
           <div>
