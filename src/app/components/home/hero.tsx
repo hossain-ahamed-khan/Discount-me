@@ -6,11 +6,11 @@ import heroImg from "../../../../public/images/hero-img-2.png";
 
 export default function Hero() {
     return (
-        <div className="relative my-10">
+        <div className="relative my-5 lg:my-20">
             <div className="flex-none lg:flex justify-between items-center">
                 <div className="w-full lg:w-3/5 space-y-10">
-                    <h1 className="font-roboto text-7xl font-bold text-[#0C0C0C]">Good <span className="text-[#FF7D29]">food</span>, great <br /> memories</h1>
-                    <p className="font-dm_Sans text-3xl text-[#232323] w-4/5">Enable diners to customize their booking by requesting a specific table location or view.</p>
+                    <h1 className="font-roboto text-5xl lg:text-7xl font-bold text-[#0C0C0C]">Good <span className="text-[#FF7D29]">food</span>, great <br /> memories</h1>
+                    <p className="font-dm_Sans text-xl lg:text-3xl text-[#232323] w-4/5">Enable diners to customize their booking by requesting a specific table location or view.</p>
                     <div className="border rounded-full w-96 lg:w-[480px] flex justify-between items-center">
                         <div className="bg-[#00B047] w-32 flex justify-between items-center text-white space-x-4 p-3 rounded-l-full">
                             <div>

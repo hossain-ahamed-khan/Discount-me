@@ -7,7 +7,7 @@ import user from "../../../public/images/user _ user.png";
 
 export const Navbar = () => {
     return (
-        <div className="navbar w-4/5 mx-auto bg-[#FDFDFD]">
+        <div className="navbar w-4/5 mx-auto bg-[#FDFDFD] py-5 lg:py-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,7 +26,7 @@ export const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#1D242D]">
+                        className="menu menu-sm dropdown-content rounded-box z-[10] mt-3 w-52 p-2 shadow bg-[#FDFDFD] text-[#1D242D]">
                         <li><a>Profile</a></li>
                         <li><a>Shopping Cart</a></li>
                         <li><a>About us</a></li>
@@ -59,10 +59,10 @@ export const Navbar = () => {
                 </div>
 
 
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 z-[10]">
                     <li>
                         <details>
-                            <summary>Parent</summary>
+                            <summary>All Category</summary>
                             <ul className="p-2 w-48 bg-[#FDFDFD] text-[#1D242D]">
                                 <li><a>Profile</a></li>
                                 <li><a>Shopping Cart</a></li>
