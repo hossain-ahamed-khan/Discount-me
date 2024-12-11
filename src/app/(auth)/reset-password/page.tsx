@@ -1,7 +1,7 @@
 import Image from "next/image";
 import bannerImg from "../../../../public/images/banner-signin.png";
 
-export default function SetPassword() {
+export default function ResetPassword() {
     return (
         <div>
             <div>
