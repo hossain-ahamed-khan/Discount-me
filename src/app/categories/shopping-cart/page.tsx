@@ -71,7 +71,7 @@ export default function ShoppingCart() {
                                                 <div className="avatar">
                                                     <div className="mask mask-squire h-16 w-16">
                                                         <Image
-                                                            src={frizeImg}
+                                                            src={tvImg}
                                                             width={100}
                                                             height={100}
                                                             alt="product image"
