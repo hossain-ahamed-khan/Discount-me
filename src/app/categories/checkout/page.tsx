@@ -1,7 +1,6 @@
 import Image from "next/image";
 import checkoutBanner from "../../../../public/images/checkout-banner.png";
 import frizeImg from "../../../../public/images/frize-main.png";
-import ModalBtn from "@/app/components/modalBtn";
 
 export default function Checkout() {
     return (
@@ -137,7 +136,7 @@ export default function Checkout() {
                             </div>
                         </div>
                         <div>
-                            <ModalBtn />
+                            <button className="bg-[#EA5326] w-full mt-3 p-2 rounded-full text-white">Place Order</button>
                         </div>
 
                     </div>
