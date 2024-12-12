@@ -27,12 +27,12 @@ export const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content rounded-box z-[10] mt-3 w-52 p-2 shadow bg-[#FDFDFD] text-[#1D242D]">
-                            <li><a>Profile</a></li>
-                            <li><a>Shopping Cart</a></li>
-                            <li><a>About us</a></li>
-                            <li><a>Terms of use</a></li>
-                            <li><a>Privacy Policy</a></li>
+                            className="menu menu-sm dropdown-content rounded-box z-[10] mt-3 w-60 p-6 shadow bg-[#FDFDFD] text-[#1D242D] text-lg font-medium flex flex-col gap-3">
+                            <Link href="/profile/dashboard"><li>Profile</li></Link>
+                            <Link href="/shopping-cart"><li>Shopping Cart</li></Link>
+                            <Link href="/categories/about-us"><li>About us</li></Link>
+                            <Link href="/categories/terms-of-use"><li>Terms of use</li></Link>
+                            <Link href="/categories/privacy-policy"><li>Privacy Policy</li></Link>
                         </ul>
                     </div>
                     <Link href="/">
@@ -63,36 +63,36 @@ export const Navbar = () => {
                     <ul className="menu menu-horizontal px-1 z-[10]">
                         <li>
                             <details>
-                                <summary>All Category</summary>
-                                <ul className="p-2 w-48 bg-[#FDFDFD] text-[#1D242D]">
-                                    <li><a>Profile</a></li>
-                                    <li><a>Shopping Cart</a></li>
-                                    <li><a>About us</a></li>
-                                    <li><a>Terms of use</a></li>
-                                    <li><a>Privacy Policy</a></li>
+                                <summary className="text-[#1D242D] text-lg hover">All Category</summary>
+                                <ul className="p-6 w-60 bg-[#FDFDFD] text-[#1D242D] text-lg font-medium flex flex-col gap-3">
+                                    <Link href="/profile/dashboard"><li>Profile</li></Link>
+                                    <Link href="/shopping-cart"><li>Shopping Cart</li></Link>
+                                    <Link href="/categories/about-us"><li>About Us</li></Link>
+                                    <Link href="/categories/terms-of-use"><li>Terms of use</li></Link>
+                                    <Link href="/categories/privacy-policy"><li>Privacy Policy</li></Link>
                                 </ul>
                             </details>
                         </li>
-                        <li><a>Coupon</a></li>
-                        <li><a>Support</a></li>
+                        <Link href="/coupon" className="text-[#1D242D] text-lg btn btn-ghost"><li>Coupon</li></Link>
+                        <Link href="/categories/about-us" className="text-[#1D242D] text-lg btn btn-ghost"><li>About Us</li></Link>
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <div className="flex space-x-10">
-                        <Link href="/" className="text-[#1D242D]">
+                        <Link href="/shopping-cart" className="text-[#1D242D]">
                             <Image
                                 src={cart}
                                 width={20}
                                 height={20}
-                                alt="main logo image"
+                                alt="cart logo image"
                             />
                         </Link>
-                        <Link href="/" className="text-[#1D242D]">
+                        <Link href="/profile/dashboard" className="text-[#1D242D]">
                             <Image
                                 src={user}
                                 width={20}
                                 height={20}
-                                alt="main logo image"
+                                alt="profile logo image"
                             />
                         </Link>
                     </div>

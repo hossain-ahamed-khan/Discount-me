@@ -1,7 +1,7 @@
 import Image from "next/image";
-import shoppingCartBanner from "../../../../public/images/shopping-cart-banner.png";
-import frizeImg from "../../../../public/images/frize-main.png";
-import tvImg from "../../../../public/images/TV main.png";
+import shoppingCartBanner from "../../../public/images/shopping-cart-banner.png";
+import frizeImg from "../../../public/images/frize-main.png";
+import tvImg from "../../../public/images/TV main.png";
 import IncrementDecrementBtn from "@/app/components/incrementDecrementBtn";
 
 export default function ShoppingCart() {
