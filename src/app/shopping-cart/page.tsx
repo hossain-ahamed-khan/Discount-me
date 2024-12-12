@@ -28,7 +28,7 @@ export default function ShoppingCart() {
                             <table className="table">
                                 {/* head */}
                                 <thead>
-                                    <tr>
+                                    <tr className="bg-[#F2F2F2] text-[#4D4D4D] border-none">
                                         <th>PRODUCT</th>
                                         <th>PRICE</th>
                                         <th>QUANTITY</th>
@@ -37,7 +37,7 @@ export default function ShoppingCart() {
                                 </thead>
                                 <tbody>
                                     {/* row 1 */}
-                                    <tr>
+                                    <tr className="border-none text-[#333333]">
                                         <td>
                                             <div className="flex items-center gap-3">
                                                 <div className="avatar">
@@ -66,7 +66,7 @@ export default function ShoppingCart() {
                                         </td>
                                     </tr>
                                     {/* row 2 */}
-                                    <tr>
+                                    <tr className="border-none text-[#333333]">
                                         <td>
                                             <div className="flex items-center gap-3">
                                                 <div className="avatar">
