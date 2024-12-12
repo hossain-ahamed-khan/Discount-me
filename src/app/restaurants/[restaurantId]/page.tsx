@@ -9,6 +9,7 @@ import tshirtImg from "../../../../public/images/t-shirt.png";
 import bookImg from "../../../../public/images/book.png";
 import riceImg from "../../../../public/images/rice.png";
 import ItemCard from "@/app/components/itemCard";
+import Link from "next/link";
 
 export default function RestaurantDetails() {
     return (
@@ -117,7 +118,9 @@ export default function RestaurantDetails() {
 
             <div className="flex justify-between">
                 <h1 className="text-[#1D242D] text-3xl font-bold">Items🔥</h1>
-                <button className="p-3 text-[#00B047] bg-[#D9F3E3] rounded-full">See all</button>
+                <Link href="/restaurants/1/items">
+                    <button className="p-3 text-[#00B047] bg-[#D9F3E3] rounded-full">See all</button>
+                </Link>
             </div>
 
             <div className="grid grid-cols-4 lg:grid-cols-8">

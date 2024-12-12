@@ -5,6 +5,7 @@ import IncrementDecrementBtn from "@/app/components/incrementDecrementBtn";
 import shoppingBag from "../../../../../../public/images/shopping-bag.png";
 import shoppingCart from "../../../../../../public/images/shopping_cart_icon 1.png";
 import itemDetailsBanner from "../../../../../../public/images/item-details-banner.png";
+import Link from "next/link";
 
 
 export default function ItemDetails() {
@@ -65,7 +66,9 @@ export default function ItemDetails() {
                                 <IncrementDecrementBtn />
                             </div>
                             <div className="w-96 bg-[#FF7D29] rounded-full flex gap-2 justify-center items-center">
-                                <button className="text-white text-poppins font-semibold">Checkout</button>
+                                <Link href="/categories/checkout">
+                                    <button className="text-white text-poppins font-semibold">Checkout</button>
+                                </Link>
                                 <Image
                                     src={shoppingBag}
                                     width={20}

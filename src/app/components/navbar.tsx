@@ -87,7 +87,7 @@ export const Navbar = () => {
                                 alt="cart logo image"
                             />
                         </Link>
-                        <Link href="/profile/dashboard" className="text-[#1D242D]">
+                        <Link href="/sign-in" className="text-[#1D242D]">
                             <Image
                                 src={user}
                                 width={20}

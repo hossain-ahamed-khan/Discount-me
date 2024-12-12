@@ -2,6 +2,7 @@ import Image from "next/image";
 import restaurantImg from "../../../../public/images/Rectangle 2.png";
 import starImg from "../../../../public/images/Star 1.png";
 import location from "../../../../public/images/location.png";
+import Link from "next/link";
 
 export default function TopRestaurants() {
     return (
@@ -40,8 +41,10 @@ export default function TopRestaurants() {
                     <p className="text-xs text-[#758888]">
                         Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you’re dining, seafood can be truly exceptional.  Read More...
                     </p>
-                    <div className="card-actions pt-3">
-                        <button className="btn bg-[#00B047] hover:bg-[#119747] w-full text-white border-none">Visit</button>
+                    <div className="pt-3 w-full">
+                        <Link href="/restaurants/1">
+                            <button className="btn w-full bg-[#00B047] hover:bg-[#119747]  text-white border-none">Visit</button>
+                        </Link>
                     </div>
                 </div>
             </div>

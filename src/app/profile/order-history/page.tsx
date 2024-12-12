@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function OrderHistory() {
     return (
         <div className="w-full bg-white rounded-lg shadow-md my-5 lg:my-10">
@@ -32,7 +34,9 @@ export default function OrderHistory() {
                                     <p>Processing</p>
                                 </td>
                                 <td>
-                                    <button className="text-[#EA5326] font-medium">View Details</button>
+                                    <Link href="/profile/order-history/1">
+                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                    </Link>
                                 </td>
                             </tr>
 
@@ -50,7 +54,9 @@ export default function OrderHistory() {
                                     <p>Processing</p>
                                 </td>
                                 <td>
-                                    <button className="text-[#EA5326] font-medium">View Details</button>
+                                    <Link href="/profile/order-history/1">
+                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                    </Link>
                                 </td>
                             </tr>
 
@@ -68,7 +74,9 @@ export default function OrderHistory() {
                                     <p>Processing</p>
                                 </td>
                                 <td>
-                                    <button className="text-[#EA5326] font-medium">View Details</button>
+                                    <Link href="/profile/order-history/1">
+                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                    </Link>
                                 </td>
                             </tr>
 
@@ -86,7 +94,9 @@ export default function OrderHistory() {
                                     <p>Processing</p>
                                 </td>
                                 <td>
-                                    <button className="text-[#EA5326] font-medium">View Details</button>
+                                    <Link href="/profile/order-history/1">
+                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                    </Link>
                                 </td>
                             </tr>
 
@@ -104,7 +114,9 @@ export default function OrderHistory() {
                                     <p>Processing</p>
                                 </td>
                                 <td>
-                                    <button className="text-[#EA5326] font-medium">View Details</button>
+                                    <Link href="/profile/order-history/1">
+                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                    </Link>
                                 </td>
                             </tr>
 
@@ -122,7 +134,9 @@ export default function OrderHistory() {
                                     <p>Processing</p>
                                 </td>
                                 <td>
-                                    <button className="text-[#EA5326] font-medium">View Details</button>
+                                    <Link href="/profile/order-history/1">
+                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                    </Link>
                                 </td>
                             </tr>
 
@@ -140,7 +154,9 @@ export default function OrderHistory() {
                                     <p>Processing</p>
                                 </td>
                                 <td>
-                                    <button className="text-[#EA5326] font-medium">View Details</button>
+                                    <Link href="/profile/order-history/1">
+                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                    </Link>
                                 </td>
                             </tr>
                         </tbody>

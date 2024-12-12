@@ -3,6 +3,7 @@ import shoppingCartBanner from "../../../public/images/shopping-cart-banner.png"
 import frizeImg from "../../../public/images/frize-main.png";
 import tvImg from "../../../public/images/TV main.png";
 import IncrementDecrementBtn from "@/app/components/incrementDecrementBtn";
+import Link from "next/link";
 
 export default function ShoppingCart() {
     return (
@@ -117,7 +118,9 @@ export default function ShoppingCart() {
                             <p>Total:</p>
                             <p className="font-semibold">$84.00</p>
                         </div>
-                        <button className="bg-[#EA5326] w-full mt-3 p-2 rounded-full text-white">Proceed to checkout</button>
+                        <Link href="/categories/checkout">
+                            <button className="bg-[#EA5326] w-full mt-3 p-2 rounded-full text-white">Proceed to checkout</button>
+                        </Link>
                     </div>
                 </div>
             </div>

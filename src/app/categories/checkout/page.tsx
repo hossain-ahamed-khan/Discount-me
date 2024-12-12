@@ -22,7 +22,6 @@ export default function Checkout() {
                 <h1 className="text-3xl text-[#1A1A1A] font-bold my-5">Billing Information</h1>
                 <div className="flex-none lg:flex gap-3 my-3 lg:my-6">
                     <div className="w-full lg:w-3/4 font-poppins">
-
                         <div className="flex-none lg:flex justify-between gap-3">
                             <label className="form-control w-full">
                                 <div className="label">

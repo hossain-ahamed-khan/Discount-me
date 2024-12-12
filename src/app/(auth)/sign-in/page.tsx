@@ -1,5 +1,6 @@
 import Image from "next/image";
 import bannerImg from "../../../../public/images/banner-signin.png";
+import Link from "next/link";
 
 export default function SignIn() {
   return (
@@ -30,13 +31,13 @@ export default function SignIn() {
             <p>Remember me</p>
           </div>
           <div>
-            <button>Forgot Password</button>
+            <Link href="/forgot-password"><button className="font-semibold">Forgot Password</button></Link>
           </div>
         </div>
         <button className="text-white bg-[#FF7D29] hover:bg-[#c2570f] w-full p-4 rounded-full font-semibold">Login</button>
         <div className="text-[#666666] flex justify-center gap-1">
           <p>Don&apos;t have account?</p>
-          <button className="text-[#1A1A1A] font-poppins font-medium">Register</button>
+          <Link href="/register"><button className="text-[#1A1A1A] font-poppins font-medium">Register</button></Link>
         </div>
       </div>
     </div>

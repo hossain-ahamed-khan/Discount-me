@@ -1,9 +1,13 @@
-export default function Home() {
+import Link from "next/link";
+
+export default function OrderDetails() {
     return (
         <div className="w-full bg-white rounded-lg shadow-md my-5 lg:my-10">
             <div className="flex justify-between p-3 lg:p-6 border-b-2 border-[#E6E6E6]">
-                <h1 className="text-2xl font-medium text-[#1A1A1A]">Recet Order History</h1>
-                <button className="text-[#EA5326] font-medium">View All</button>
+                <h1 className="text-2xl font-medium text-[#1A1A1A]">Order Details</h1>
+                <Link href="/profile/order-history">
+                    <button className="text-[#EA5326] text-xl font-semibold">Back to List</button>
+                </Link>
             </div>
 
             <div className="w-full flex-none lg:flex p-5 lg:p-10 gap-5">

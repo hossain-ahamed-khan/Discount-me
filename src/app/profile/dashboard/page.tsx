@@ -1,5 +1,6 @@
 import Image from "next/image";
 import profilePhoto from "../../../../public/images/profile-photo.png";
+import Link from "next/link";
 
 export default function Dashboard() {
     return (
@@ -29,7 +30,9 @@ export default function Dashboard() {
             <div className="w-full bg-white rounded-lg shadow-md mt-5 lg:mt-10">
                 <div className="flex justify-between p-3 lg:p-6">
                     <h1 className="text-2xl font-medium text-[#1A1A1A]">Recet Order History</h1>
-                    <button className="text-[#EA5326] font-medium">View All</button>
+                    <Link href="/profile/order-history">
+                        <button className="text-[#EA5326] font-medium">View All</button>
+                    </Link>
                 </div>
 
                 <div>
@@ -59,7 +62,9 @@ export default function Dashboard() {
                                         <p>Processing</p>
                                     </td>
                                     <td>
-                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                        <Link href="/profile/order-history/1">
+                                            <button className="text-[#EA5326] font-medium">View Details</button>
+                                        </Link>
                                     </td>
                                 </tr>
 
@@ -77,7 +82,9 @@ export default function Dashboard() {
                                         <p>Processing</p>
                                     </td>
                                     <td>
-                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                        <Link href="/profile/order-history/1">
+                                            <button className="text-[#EA5326] font-medium">View Details</button>
+                                        </Link>
                                     </td>
                                 </tr>
 
@@ -95,7 +102,9 @@ export default function Dashboard() {
                                         <p>Processing</p>
                                     </td>
                                     <td>
-                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                        <Link href="/profile/order-history/1">
+                                            <button className="text-[#EA5326] font-medium">View Details</button>
+                                        </Link>
                                     </td>
                                 </tr>
 
@@ -113,7 +122,9 @@ export default function Dashboard() {
                                         <p>Processing</p>
                                     </td>
                                     <td>
-                                        <button className="text-[#EA5326] font-medium">View Details</button>
+                                        <Link href="/profile/order-history/1">
+                                            <button className="text-[#EA5326] font-medium">View Details</button>
+                                        </Link>
                                     </td>
                                 </tr>
                             </tbody>

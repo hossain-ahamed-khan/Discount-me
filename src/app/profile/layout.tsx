@@ -10,8 +10,12 @@ export default function ProfileLayout({
         <div>
             <ProfileBanner />
             <div className="flex w-4/5 mx-auto gap-10">
-                <Navigation />
-                {children}
+                <div className="w-1/4">
+                    <Navigation />
+                </div>
+                <div className="w-3/4">
+                    {children}
+                </div>
             </div>
         </div>
     );

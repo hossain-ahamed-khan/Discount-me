@@ -6,6 +6,7 @@ import couponImg from "../../public/images/coupon-logo.png";
 import dollarImg from "../../public/images/dollar-logo.png";
 import bookmarkImg from "../../public/images/bookmark-logo.png";
 import truckImg from "../../public/images/truck-logo.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
             <p className="text-[#758888] py-2 text-xl">Check your city Near by Restaurant</p>
           </div>
           <div>
-            <button>See All</button>
+            <Link href="/restaurants">
+              <button className="font-semibold text-black">See All</button>
+            </Link>
           </div>
         </div>
 
